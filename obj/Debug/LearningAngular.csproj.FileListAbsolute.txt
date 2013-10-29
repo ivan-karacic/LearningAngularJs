@@ -1,0 +1,5 @@
+C:\Users\Ivan\Desktop\Angular\bin\LearningAngular.dll
+C:\Users\Ivan\Desktop\Angular\bin\LearningAngular.pdb
+C:\Users\Ivan\Desktop\Angular\obj\Debug\LearningAngular.csprojResolveAssemblyReference.cache
+C:\Users\Ivan\Desktop\Angular\obj\Debug\LearningAngular.dll
+C:\Users\Ivan\Desktop\Angular\obj\Debug\LearningAngular.pdb
