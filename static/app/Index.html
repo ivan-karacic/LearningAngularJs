@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" ng-app="administratorApp">
 <head>
     <meta charset="utf-8">
     <title></title>
@@ -17,7 +17,9 @@
     <script src="tenant/TenantController.js"></script>
     <script src="tenant/TenantService.js"></script>
 </head>
-<body>
-
+<body ng-controller="LoadTenantCtrl">
+    <div ng-repeat="t in tenant">
+        {{t.name}}
+    </div>
 </body>
 </html>
