@@ -6,8 +6,6 @@ administratorApp = angular.module 'administratorApp', [
     'administratorService'
 ]
 
-
-###
 administratorApp.config ['$routeProvider', ($routeProvider) -> 
-    $routeProvider.when '/', {templateUrl: 'partials/home.html'}]
-###
+    $routeProvider.when '/', {templateUrl: 'tenant/partials/assets.html', controller:'LoadTenantCtrl'}
+]

@@ -12,14 +12,15 @@
     <script src="../lib/angular-1.2.0-rc.3/angular.js"></script>
     <script src="../lib/angular-1.2.0-rc.3/angular-resource.js"></script>
     <script src="../lib/angular-1.2.0-rc.3/angular-route.js"></script>
+    <script src="../lib/angular-1.2.0-rc.3/angular-loader.js"></script>
 
     <script src="tenant/app.js"></script>
     <script src="tenant/TenantController.js"></script>
     <script src="tenant/TenantService.js"></script>
 </head>
-<body ng-controller="LoadTenantCtrl">
-    <div ng-repeat="t in tenant">
-        {{t.name}}
+<body>
+    <div class="container">
+        <div ng-view></div>
     </div>
 </body>
 </html>

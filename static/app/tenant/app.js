@@ -5,10 +5,13 @@
 
   administratorApp = angular.module('administratorApp', ['ngRoute', 'administratorController', 'administratorService']);
 
-
-  /*
-  administratorApp.config ['$routeProvider', ($routeProvider) -> 
-      $routeProvider.when '/', {templateUrl: 'partials/home.html'}]
-  */
+  administratorApp.config([
+    '$routeProvider', function($routeProvider) {
+      return $routeProvider.when('/', {
+        templateUrl: 'tenant/partials/assets.html',
+        controller: 'LoadTenantCtrl'
+      });
+    }
+  ]);
 
 }).call(this);
