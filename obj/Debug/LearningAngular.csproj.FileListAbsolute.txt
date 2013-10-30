@@ -3,3 +3,8 @@ C:\Users\Ivan\Desktop\Angular\bin\LearningAngular.pdb
 C:\Users\Ivan\Desktop\Angular\obj\Debug\LearningAngular.csprojResolveAssemblyReference.cache
 C:\Users\Ivan\Desktop\Angular\obj\Debug\LearningAngular.dll
 C:\Users\Ivan\Desktop\Angular\obj\Debug\LearningAngular.pdb
+C:\xampp\htdocs\AngularJs\bin\LearningAngular.dll
+C:\xampp\htdocs\AngularJs\bin\LearningAngular.pdb
+C:\xampp\htdocs\AngularJs\obj\Debug\LearningAngular.csprojResolveAssemblyReference.cache
+C:\xampp\htdocs\AngularJs\obj\Debug\LearningAngular.dll
+C:\xampp\htdocs\AngularJs\obj\Debug\LearningAngular.pdb
