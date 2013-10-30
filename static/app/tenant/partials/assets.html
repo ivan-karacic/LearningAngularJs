@@ -1,11 +1,50 @@
-﻿<!-- Code for top left area here -->
-<div>
-    <div ng-repeat="t in tenant">
-        {{t.name}}
+﻿<!-- Navigation bar -->
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+        </div>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Assets</a></li>
+                <li><a href="#">Roles</a></li>
+                <li><a href="#">Recorders</a></li>
+                <li><a href="#">Import Users</a></li>
+                <li><a href="#">Schedule</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
     </div>
 </div>
 
-<!-- Tenant Tree view here -->
-<div>
-    <div id='tenant-treeview'></div>
+<!-- Code for top left area here -->
+<div class="col-md-1 tenant-view-left">
+    Name:<br />
+    Code:<br />
+    CustomerID:<br />
+    Customer:<br />
+    IsActive:<br />
+    Maximum Users:<br />
+    Expiry Data:<br />
+    IsDeleted:
+</div>    
+<div class="col-md-1 tenant-view-right" ng-repeat="t in tenant">
+    {{t.name}}<br />
+    {{t.code}}<br />
+    {{t.customer-id}}<br />
+    {{t.customer}}<br />
+    {{t.isActive}}<br />
+    {{t.maximum-users}}<br />
+    {{t.expiry-date}}<br />
+    {{t.isDeleted}}
 </div>
+<!-- Code for the rest of the view here-->
+<div class="col-md-8">
+
+</div>
+
+    <!-- Tenant Tree view here -->

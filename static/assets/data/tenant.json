@@ -1,10 +1,12 @@
 ﻿[
 	{
 		"name": "Tenant 1001",
-		"code": "1001"
-	},
-	{
-		"name": "Tenant 1002",
-		"code": "1002"
+		"code": "1001",
+		"customer-id": "0",
+		"customer": "0",
+		"isActive": "YES",
+		"maximum-users": "100",
+		"expiry-date": "24.8.2013",
+		"isDeleted": "NO"
 	}
 ]
