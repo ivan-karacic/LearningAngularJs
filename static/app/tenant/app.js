@@ -1,8 +1,6 @@
 ﻿(function() {
   var administratorApp;
 
-
-
   administratorApp = angular.module('administratorApp', ['ngRoute', 'administratorController', 'administratorService']);
 
   administratorApp.config([
